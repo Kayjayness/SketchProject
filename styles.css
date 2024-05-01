@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+body {
+    background-color: #222;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #222;
+}
+
+.intro {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+.divContainer {
+    margin: 100px 50px 50px 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.areaDivs {
+    background-color: #fff;
+    aspect-ratio: 1 / 1;
+}
+
+.generate {
+    padding: 10px 35px;
+    background-color: #bd062d;
+    border: none;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.generate:hover {
+    padding: 12px 37px;
+    background-color: #cf546e;
+    border: none;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 16px;
+}
